@@ -16,7 +16,6 @@
 ### 1. B2B Satış Raporlarını İndirin
 Öncelikle, **SunExpress B2B sistemine** giriş yaparak satış raporlarını indirin. Raporları Excel formatında indirdiğinizden emin olun.
 
-### 2. Excel Dosyalarını Doğru Klasöre Yerleştirin
 İndirilen Excel dosyalarını `excel` adlı klasöre taşıyın. 
 
 ### 3. Gerekli Bağımlılıkları Yükleyin
