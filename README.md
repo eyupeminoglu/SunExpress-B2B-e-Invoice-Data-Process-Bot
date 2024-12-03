@@ -1,23 +1,29 @@
 # SunExpress B2B eInvoice Data Process Bot
 
-Bu bot, **SunExpress B2B Sistemi** için biletlerin fatura verilerini otomatik olarak bir Excel dosyasına aktarır. Bu bot, **Node.js** kullanılarak geliştirilmiştir.
+**SunExpress B2B Sistemi** için geliştirilmiş bot, biletlerin fatura verilerini otomatik olarak Excel dosyasına aktarır ve işlemleri hızlandırır. Muhasebe işlemlerini kolaylaştırarak zaman kazandırır.
 
 ## Özellikler
 
 - **Fatura Verilerini Çekme:** SunExpress sitesinden fatura verilerini otomatik olarak alır.
-- **Excel'e Aktarma:** Muhasebe için gerekli verileri excele aktarıp faturalar klasörüne aktarır.
+- **Excel'e Aktarma:** Gereken muhasebe verilerini düzgün bir şekilde Excel dosyasına aktarır ve **faturalar** klasörüne yerleştirir.
 
-## Gereksinimler
+## 🛠️ Gereksinimler
 
 - **Node.js** bilgisayarınızda kurulu olması gerekli. Eğer kurulu değilse, [Node.js'in resmi web sitesinden](https://nodejs.org) yükleyebilirsiniz.
 
-## Kurulum
+## 📦 Kurulum ve Kullanım Adımları
 
 Projenin kurulumunu aşağıdaki adımlarla gerçekleştirebilirsiniz.
 
-### 1. Bağımlılıkları Yükleme
+### 1. B2B Satış Raporlarını İndirin
+Öncelikle, **SunExpress B2B sistemine** giriş yaparak satış raporlarını indirin. Raporları Excel formatında indirdiğinizden emin olun.
 
-Öncelikle, proje dizininde terminal veya komut istemcisi açarak gerekli bağımlılıkları yükleyin:
+### 2. Excel Dosyalarını Doğru Klasöre Yerleştirin
+İndirilen Excel dosyalarını `excel` adlı klasöre taşıyın. 
+
+### 3. Gerekli Bağımlılıkları Yükleyin
+
+Botu çalıştırmadan önce, proje dizininde terminal veya komut istemcisine girerek gerekli bağımlılıkları yükleyin:
 
 ```bash
 npm install
@@ -34,4 +40,4 @@ node bot.js
 
 #### Windows
 
-Windows işletim sistemi kullanıyorsanız, öncelikle gerekli bağımlılıkları indirdikten sonra `Start.bat` dosyasını çalıştırarak botu başlatabilirsiniz.
+Windows kullanıcıları, `Start.bat` dosyasını çalıştırarak botu başlatabilirler.
