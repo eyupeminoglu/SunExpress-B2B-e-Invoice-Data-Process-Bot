@@ -18,7 +18,7 @@
 
 İndirilen Excel dosyalarını `excel` adlı klasöre taşıyın. 
 
-### 3. Gerekli Bağımlılıkları Yükleyin
+### 2. Gerekli Bağımlılıkları Yükleyin
 
 Botu çalıştırmadan önce, proje dizininde terminal veya komut istemcisine girerek gerekli bağımlılıkları yükleyin:
 
@@ -26,7 +26,7 @@ Botu çalıştırmadan önce, proje dizininde terminal veya komut istemcisine gi
 npm install
 ```
 
-### 4. Botu Çalıştırma
+### 3. Botu Çalıştırma
 #### Linux veya macOS
 
 ```bash
