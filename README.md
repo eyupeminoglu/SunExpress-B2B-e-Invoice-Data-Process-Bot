@@ -13,8 +13,6 @@
 
 ## 📦 Kurulum ve Kullanım Adımları
 
-Projenin kurulumunu aşağıdaki adımlarla gerçekleştirebilirsiniz.
-
 ### 1. B2B Satış Raporlarını İndirin
 Öncelikle, **SunExpress B2B sistemine** giriş yaparak satış raporlarını indirin. Raporları Excel formatında indirdiğinizden emin olun.
 
@@ -29,10 +27,8 @@ Botu çalıştırmadan önce, proje dizininde terminal veya komut istemcisine gi
 npm install
 ```
 
-### 2. Botu Çalıştırma
+### 4. Botu Çalıştırma
 #### Linux veya macOS
-
-Linux veya macOS sistemlerinde botu çalıştırmak için aşağıdaki komutu kullanabilirsiniz:
 
 ```bash
 node bot.js
